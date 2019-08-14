@@ -7,10 +7,6 @@ public class User {
 
     private String username;
 
-    public Integer getId() {
-        return id;
-    }
-
     public User(Integer id, Integer flag, String username) {
         this.id = id;
         this.flag = flag;
@@ -18,6 +14,9 @@ public class User {
     }
     public User() {
 
+    }
+    public Integer getId() {
+        return id;
     }
 
     public void setId(Integer id) {

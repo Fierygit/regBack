@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 
@@ -44,6 +45,13 @@ public class UserController {
         userService.deleteByPrimaryKey(id);
         return ResultUtil.success(id);
     }
+    @ApiOperation(value = "获取所有数据")
+    @GetMapping("/getAllUser")
+    public Result<List<User>> getAllUser() {
+        List<User> users =   userService.getAllUser();
+        return ResultUtil.success(users);
+    }
+
 
 
     @ApiOperation(value = "testapi")

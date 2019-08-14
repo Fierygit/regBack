@@ -1,0 +1,5 @@
+[framework] 2019-08-05 10:05:37,874 - druid.sql.Connection -0    [http-nio-2333-exec-1] DEBUG druid.sql.Connection  - {conn-10001} connected
+[framework] 2019-08-05 10:05:52,783 - druid.sql.Connection -14909 [Druid-ConnectionPool-Create-1076205469] DEBUG druid.sql.Connection  - {conn-10002} connected
+[framework] 2019-08-05 10:05:53,804 - druid.sql.Connection -15930 [Druid-ConnectionPool-Create-1076205469] DEBUG druid.sql.Connection  - {conn-10002} closed
+[framework] 2019-08-05 10:06:17,859 - druid.sql.Connection -39985 [Druid-ConnectionPool-Create-1076205469] DEBUG druid.sql.Connection  - {conn-10003} connected
+[framework] 2019-08-05 10:06:18,865 - druid.sql.Connection -40991 [Druid-ConnectionPool-Create-1076205469] DEBUG druid.sql.Connection  - {conn-10003} closed

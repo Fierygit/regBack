@@ -13,7 +13,7 @@
         </commentGenerator>
         <!--数据库链接URL，用户名、密码 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://207.148.112.5:3306/reg_web"
+                        connectionURL="jdbc:mysql://207.148.112.5:3306/reg_web??serverTimezone=CTT&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;allowMultiQueries=true"
                         userId="root"
                         password="123456">
         </jdbcConnection>
@@ -34,8 +34,8 @@
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
         <!-- 要生成的表 tableName是数据库中的表名或视图名 domainObjectName是实体类名-->
-        <table tableName="user" domainObjectName="User" enableCountByExample="false"
-               enableUpdateByExample="false" enableDeleteByExample="false"
-               enableSelectByExample="false" selectByExampleQueryId="false" />
+        <table tableName="notepad" domainObjectName="Notepad" enableCountByExample="false"
+               enableUpdateByExample="true" enableDeleteByExample="false"
+               enableSelectByExample="true" selectByExampleQueryId="true" />
     </context>
 </generatorConfiguration>
